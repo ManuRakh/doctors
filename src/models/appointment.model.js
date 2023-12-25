@@ -11,7 +11,7 @@ const Appointment = sequelize.define("Appointment", {
     allowNull: false,
   },
   slot: {
-    type: DataTypes.STRING(5),
+    type: DataTypes.STRING,
     allowNull: false,
   },
   doctor_id: {
