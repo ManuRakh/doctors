@@ -15,7 +15,7 @@ module.exports = {
         type: Sequelize.STRING,
       },
       slots: {
-        type: Sequelize.JSON, // Добавьте это поле для слотов
+        type: Sequelize.JSON,
       },
       createdAt: {
         allowNull: false,
