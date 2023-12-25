@@ -7,7 +7,7 @@ module.exports = {
       [
         {
           id: uuidv4(),
-          name: "Алексей5",
+          name: "Алексей",
           spec: "Терапевт",
           slots: JSON.stringify(["2023-01-01T10:00:00", "2023-01-01T11:00:00"]),
           createdAt: new Date(),
@@ -15,7 +15,7 @@ module.exports = {
         },
         {
           id: uuidv4(),
-          name: "Ольга5",
+          name: "Ольга",
           spec: "Педиатр",
           slots: JSON.stringify(["2023-01-01T10:00:00", "2023-01-01T11:00:00"]),
           createdAt: new Date(),
