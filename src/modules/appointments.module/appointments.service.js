@@ -1,6 +1,6 @@
 const { Op } = require("sequelize");
 
-const Doctor = require("../../models/doctor.model"); // Предполагается, что модели определены здесь
+const Doctor = require("../../models/doctor.model");
 const Appointment = require("../../models/appointment.model");
 
 const checkSlotAvailability = async (doctorId, slotTime) => {
