@@ -3,7 +3,7 @@ const express = require("express");
 const router = express.Router();
 const { createAppointment } = require("./appointments.controller");
 
-router.get('/:userId/balances', async (req, res) => {
+router.post('/', async (req, res) => {
     /*
         #swagger.tags = ['External Users. Balances']
         #swagger.summary = 'Get an external user Balances.'
